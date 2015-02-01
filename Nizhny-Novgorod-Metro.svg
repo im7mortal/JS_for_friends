@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Image originally created by im7mortal for Wikimedia projects and licensed under Creative Commons Attribution-ShareAlike  3.0. -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:cc="http://web.resource.org/cc/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:svg="http://www.w3.org/2000/svg"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="600" height="750" viewBox="30 0 600 750"
+preserveAspectRatio="xMinYMin meet"
+>
+ 
+<title>Nizhny-Novgorod-Metro</title>
+<desc>
+Index of this SVG image:
+ Metadata
+ Definations
+  text style
+  basic station nodes
+  interchange rims
+  interchange nodes
+  train icon
+  airplane icon
+ Rivers paths
+ Routes paths
+ Interchange rims placement
+ Station and interchnage nodes placement
+ Station name text
+ River name text
+ Route number text
+ Title and licensing text
+ Route legend text
+</desc>
+
+<metadata id="license"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cc="http://creativecommons.org/ns#">
+ <rdf:RDF>
+   <cc:Work rdf:about="">
+     <dc:format>image/svg+xml</dc:format>
+     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+     <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+     <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+     <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+     <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+     <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+     <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+     <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+   </cc:License>
+ </rdf:RDF>
+</metadata>
+
+<defs>
+<style type="text/css">
+text.st {font-size:13px;font-family:Liberation Sans,Arial,sans-serif;}
+text.ic {font-size:11px;font-family:Liberation Sans,Arial,sans-serif;font-weight:bold;text-anchor:middle}
+text.small {font-size:10px;font-family:Liberation Sans,Arial,sans-serif;fill:#000;}
+text.legendtext {font-size:15px;font-family:Liberation Sans,Arial,sans-serif}
+text.legendst {font-size:12px;font-family:Liberation Sans,Arial,sans-serif;}
+text.legendic {font-size:12px;font-family:Liberation Sans,Arial,sans-serif;font-weight: bold;}
+</style>
+
+<circle id="ele-int" cx="0" cy="0" r="9" style="fill:white;stroke:black;stroke-width:1" />
+
+<g id="int2">
+<path style="fill:none;stroke:black;stroke-width:9px;"
+d="M 0,0 L 27,0"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<path style="fill:none;stroke:white;stroke-width:7px;"
+d="M 0,0 L 28,0"/>
+</g>
+
+<g id="int3-1">
+<path style="fill:none;stroke:black;stroke-width:9px;"
+d="M 0,0 L 57,0"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<use xlink:href="#ele-int" x="57" y="0"/>
+<path style="fill:none;stroke:white;stroke-width:7px;"
+d="M 0,0 L 57,0"/>
+</g>
+
+<g id="int3-2">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 18,19 0,39 z"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="18" y="19"/>
+<use xlink:href="#ele-int" x="0" y="39"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 18,19 0,39 z"/>
+</g>
+
+<g id="int3-3">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 24,0 12,21 z"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="24" y="0"/>
+<use xlink:href="#ele-int" x="12" y="21"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,0 L 24,0 12,21 z"/>
+</g>
+
+<g id="int3-4">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linejoin:round"
+d="M 0,0 L 28,0 14,-14 z"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<use xlink:href="#ele-int" x="14" y="-14"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linejoin:round"
+d="M 0,0 L 28,0 14,-14 z"/>
+</g>
+
+<g id="int4">
+<path style="fill:none;stroke:black;stroke-width:9px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,28 L 28,0 28,28 0,28 0,0 28,0"/>
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#ele-int" x="28" y="0"/>
+<use xlink:href="#ele-int" x="0" y="28"/>
+<use xlink:href="#ele-int" x="28" y="28"/>
+<path style="fill:none;stroke:white;stroke-width:7px;stroke-linecap:round;stroke-linejoin:round"
+d="M 0,28 L 28,0 28,28 0,28 0,0 28,0"/>
+</g>
+
+<g id="intst" style="stroke:none;">
+<circle style="stroke:black;stroke-width:1.5px" cx="0" cy="0" r="6" />
+<path fill="black" d="M 0,0 L 0,-2 5,-2 8.5,0 5,2 0,2 z"/>
+<circle cx="0" cy="0" r="6" />
+</g>
+
+<path id="intst-h"
+d="M 0,0 l 0,-6 a 6,6 0 1,0 0,12 z"/>
+<path id="intst-hs"
+d="M 0,0 l 0,-3 a 3,3 0 1,0 0,6 z"/>
+
+<g id="term">
+<path id="termm" style="fill:none;stroke-width:5;" d="M -8,0 L 8,0"/>
+<circle cx="0" cy="0" r="1.5" fill="white"/>
+</g>
+
+<g id="terms" style="fill:none;">
+<path d="M -8,0 L 8,0"/>
+<path d="M 0,0 L 0,-2.5"/>
+</g>
+
+<g id="st">
+<path id="stm" style="fill:none;stroke-width:5;" d="M 8,0 L 0.5,0"/>
+<circle cx="0" cy="0" r="1.5" fill="white"/>
+</g>
+
+<g id="sts" style="fill:none;">
+<path d="M 8,0 L 0,0"/>
+<path d="M 0,2.5 L 0,-2.5"/>
+</g>
+
+<circle id="stmono" cx="0" cy="0" r="3" style="fill:#2C87C5;stroke:none;"/>
+
+<circle id="stvok" cx="0" cy="0" r="5" style="fill:#aaaaaa;stroke:none;"/>
+
+<use xlink:href="#intst" id="intst1" style="fill:#ED1B35"/>
+<use xlink:href="#intst-h" id="intst-h1" style="fill:#ED1B35"/>
+<use xlink:href="#term" id="term1" style="stroke:#ED1B35"/>
+<use xlink:href="#st" id="st1" style="stroke:#ED1B35"/>
+<use xlink:href="#intst" id="intst1x" style="fill:#f26374"/>
+<use xlink:href="#intst-h" id="intst-h1x" style="fill:#f26374"/>
+<use xlink:href="#term" id="term1x" style="stroke:#ED1B35; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st1x" style="stroke:#ED1B35; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst2" style="fill:#44B85C"/>
+<use xlink:href="#intst-h" id="intst-h2" style="fill:#44B85C"/>
+<use xlink:href="#term" id="term2" style="stroke:#44B85C"/>
+<use xlink:href="#st" id="st2" style="stroke:#44B85C"/>
+<use xlink:href="#intst" id="intst2x" style="fill:#7cce8d"/>
+<use xlink:href="#intst-h" id="intst-h2x" style="fill:#7cce8d"/>
+<use xlink:href="#term" id="term2x" style="stroke:#44B85C; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st2x" style="stroke:#44B85C; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst3" style="fill:#0078BF"/>
+<use xlink:href="#intst-h" id="intst-h3" style="fill:#0078BF"/>
+<use xlink:href="#term" id="term3" style="stroke:#0078BF"/>
+<use xlink:href="#st" id="st3" style="stroke:#0078BF"/>
+<use xlink:href="#intst" id="intst3x" style="fill:#51a9dd"/>
+<use xlink:href="#intst-h" id="intst-h3x" style="fill:#51a9dd"/>
+<use xlink:href="#term" id="term3x" style="stroke:#0078BF; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st3x" style="stroke:#0078BF; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst4" style="fill:#19C1F3"/>
+<use xlink:href="#intst-h" id="intst-h4" style="fill:#19C1F3"/>
+<use xlink:href="#term" id="term4" style="stroke:#19C1F3"/>
+<use xlink:href="#st" id="st4" style="stroke:#19C1F3"/>
+<use xlink:href="#intst" id="intst4x" style="fill:#70d9f8"/>
+<use xlink:href="#intst-h" id="intst-h4x" style="fill:#70d9f8"/>
+<use xlink:href="#term" id="term4x" style="stroke:#19C1F3; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st4x" style="stroke:#19C1F3; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst5" style="fill:#894E35"/>
+<use xlink:href="#intst-h" id="intst-h5" style="fill:#894E35"/>
+<use xlink:href="#term" id="term5" style="stroke:#894E35"/>
+<use xlink:href="#st" id="st5" style="stroke:#894E35"/>
+<use xlink:href="#intst" id="intst5x" style="fill:#b3836e"/>
+<use xlink:href="#intst-h" id="intst-h5x" style="fill:#b3836e"/>
+<use xlink:href="#term" id="term5x" style="stroke:#894E35; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st5x" style="stroke:#894E35; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst6" style="fill:#F58631"/>
+<use xlink:href="#intst-h" id="intst-h6" style="fill:#F58631"/>
+<use xlink:href="#term" id="term6" style="stroke:#F58631"/>
+<use xlink:href="#st" id="st6" style="stroke:#F58631"/>
+<use xlink:href="#intst" id="intst6x" style="fill:#f8ab71"/>
+<use xlink:href="#intst-h" id="intst-h6x" style="fill:#f8ab71"/>
+<use xlink:href="#term" id="term6x" style="stroke:#F58631; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st6x" style="stroke:#F58631; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst7" style="fill:#8E479C"/>
+<use xlink:href="#intst-h" id="intst-h7" style="fill:#8E479C"/>
+<use xlink:href="#term" id="term7" style="stroke:#8E479C"/>
+<use xlink:href="#st" id="st7" style="stroke:#8E479C"/>
+<use xlink:href="#intst" id="intst7x" style="fill:#b680c1"/>
+<use xlink:href="#intst-h" id="intst-h7x" style="fill:#b680c1"/>
+<use xlink:href="#term" id="term7x" style="stroke:#8E479C; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st7x" style="stroke:#8E479C; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst8" style="fill:#FFCB31"/>
+<use xlink:href="#intst-h" id="intst-h8" style="fill:#FFCB31"/>
+<use xlink:href="#term" id="term8" style="stroke:#FFCB31"/>
+<use xlink:href="#st" id="st8" style="stroke:#FFCB31"/>
+<use xlink:href="#intst" id="intst8x" style="fill:#ffdc76"/>
+<use xlink:href="#intst-h" id="intst-h8x" style="fill:#ffdc76"/>
+<use xlink:href="#term" id="term8x" style="stroke:#FFCB31; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st8x" style="stroke:#FFCB31; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst9" style="fill:#A1A2A3"/>
+<use xlink:href="#intst-h" id="intst-h9" style="fill:#A1A2A3"/>
+<use xlink:href="#term" id="term9" style="stroke:#A1A2A3"/>
+<use xlink:href="#st" id="st9" style="stroke:#A1A2A3"/>
+<use xlink:href="#intst" id="intst9x" style="fill:#c7c8c8"/>
+<use xlink:href="#intst-h" id="intst-h9x" style="fill:#c7c8c8"/>
+<use xlink:href="#term" id="term9x" style="stroke:#A1A2A3; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st9x" style="stroke:#A1A2A3; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst10" style="fill:#B3D445"/>
+<use xlink:href="#intst-h" id="intst-h10" style="fill:#B3D445"/>
+<use xlink:href="#term" id="term10" style="stroke:#B3D445"/>
+<use xlink:href="#st" id="st10" style="stroke:#B3D445"/>
+<use xlink:href="#intst" id="intst10x" style="fill:#cfe684"/>
+<use xlink:href="#intst-h" id="intst-h10x" style="fill:#cfe684"/>
+<use xlink:href="#term" id="term10x" style="stroke:#B3D445; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st10x" style="stroke:#B3D445; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst11" style="fill:#79CDCD"/>
+<use xlink:href="#intst-h" id="intst-h11" style="fill:#79CDCD"/>
+<use xlink:href="#term" id="term11" style="stroke:#79CDCD"/>
+<use xlink:href="#st" id="st11" style="stroke:#79CDCD"/>
+<use xlink:href="#intst" id="intst11x" style="fill:#a2e0e0"/>
+<use xlink:href="#intst-h" id="intst-h11x" style="fill:#a2e0e0"/>
+<use xlink:href="#term" id="term11x" style="stroke:#79CDCD; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="st11x" style="stroke:#79CDCD; stroke-dasharray:3.2"/>
+
+<use xlink:href="#intst" id="intst12" style="fill:#ACBFE1"/>
+<use xlink:href="#intst-h" id="intst-h12" style="fill:#ACBFE1"/>
+<g id="term12">
+<use xlink:href="#term" style="stroke:#ACBFE1"/>
+<use xlink:href="#terms" style="stroke-width:1;stroke:#FFFFFF"/>
+</g>
+<g id="st12">
+<use xlink:href="#st" style="stroke:#ACBFE1"/>
+<use xlink:href="#sts" style="stroke-width:1; stroke:#FFFFFF"/>
+</g>
+<use xlink:href="#intst" id="intstl1x" style="fill:#caecfc"/>
+<use xlink:href="#intst-h" id="intst-hl1x" style="fill:#caecfc"/>
+<g id="term12x">
+<use xlink:href="#term" style="stroke:#83c7c7; stroke-dasharray:3.2"/>
+<use xlink:href="#terms" style="stroke:#FFFFFF; stroke-width:1;"/>
+</g>
+<g id="st12x">
+<use xlink:href="#st" style="stroke:#ACBFE1; stroke-dasharray:3.2"/>
+<use xlink:href="#sts" style="stroke:#FFFFFF; stroke-width:1;"/>
+</g>
+
+<g id="intsttpk">
+<use xlink:href="#intst" style="fill:#554D26"/>
+<circle cx="0" cy="0" r="2.5" style="fill:#F2761E"/>
+</g>
+<g id="intst-htpk">
+<use xlink:href="#intst-h" style="fill:#554D26"/>
+<use xlink:href="#intst-hs" style="fill:#F2761E"/>
+</g>
+<g id="termtpk">
+<use xlink:href="#term" style="stroke:#554D26"/>
+<use xlink:href="#terms" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+<g id="sttpk">
+<use xlink:href="#st" style="stroke:#554D26"/>
+<use xlink:href="#sts" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+<g id="intsttpkx">
+<use xlink:href="#intst" style="fill:#ada57f"/>
+<circle cx="0" cy="0" r="2.5" style="fill:#f7bc91"/>
+</g>
+<g id="intst-htpkx">
+<use xlink:href="#intst-h" style="fill:#ada57f"/>
+<use xlink:href="#intst-hs" style="fill:#f7bc91"/>
+</g>
+<g id="termtpkx" style="stroke-dasharray:3.2">
+<use xlink:href="#term" style="stroke:#554D26"/>
+<use xlink:href="#terms" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+<g id="sttpkx" style="stroke-dasharray:3.2">
+<use xlink:href="#st" style="stroke:#554D26"/>
+<use xlink:href="#sts" style="stroke:#F2761E; stroke-width:2.5;"/>
+</g>
+
+<use xlink:href="#intst" id="intstkozh" style="fill:#de62be"/>
+<use xlink:href="#intst-h" id="intst-hkozh" style="fill:#de62be"/>
+<use xlink:href="#term" id="termkozh" style="stroke:#de62be"/>
+<use xlink:href="#st" id="stkozh" style="stroke:#de62be"/>
+<use xlink:href="#intst" id="intstkozhx" style="fill:#f5cdeb"/>
+<use xlink:href="#intst-h" id="intst-hkozhx" style="fill:#f5cdeb"/>
+<use xlink:href="#term" id="termkozhx" style="stroke:#de62be; stroke-dasharray:3.2"/>
+<use xlink:href="#st" id="stkozhx" style="stroke:#de62be; stroke-dasharray:3.2"/>
+
+<g id="train" transform="matrix(0.07 0 0 0.08 -53,-13)">
+ <g style="fill-rule:evenodd;stroke:none">
+   <path style="fill:#000000"
+         d="M 1009,214 L 778,214 C 767,214 754,197 754,186 C 754,167 755,148 755,130 C 758,109 766,90 774,71 C 776,67 779,63 784,63 L 867,63 C 875,66 883,69 886,78 C 910,137 958,165 1012,175 L 1012,211 C 1012,212 1010,214 1009,214 z"/>
+   <path style="fill:#ffffff"
+         d="M 770,114 L 875,114 C 878,114 879,108 877,105 C 874,95 869,75 864,75 L 783,75 C 778,75 773,95 768,105 C 767,109 768,114 770,114 z"/>
+ </g>
+ <g style="fill:#ffffff;fill-rule:nonzero;stroke:none">
+  <path id="lamp" d="M 787,164 C 787,170 783,174 778,174 C 773,174 768,170 768,164 C 768,159 773,155 778,155 C 783,155 787,159 787,164 z"/>
+  <path transform="translate(80,0)" d="M 787,164 C 787,170 783,174 778,174 C 773,174 768,170 768,164 C 768,159 773,155 778,155 C 783,155 787,159 787,164 z"/>
+ </g>
+ <g style="fill:#ffffff;fill-rule:evenodd;stroke:none">
+  
+  <path d="M 913,136 L 913,171 L 897,163 C 896,149 895,134 895,119 C 901,124 908,132 913,136 z"/>
+  <path d="M 937,155 L 938,182 L 922,175 C 922,161 922,159 922,144 C 929,150 932,151 937,155 z"/>
+  <path d="M 945,160 L 945,184 C 950,186 955,187 960,188 L 960,166 L 945,160 z"/>
+  <path d="M 966,169 L 966,190 C 970,191 974,192 978,192 L 978,172 L 966,169 z"/>
+  <path d="M 984,174 L 984,193 C 987,194 991,194 994,194 L 994,176 L 984,174 z"/>
+  <path d="M 999,177 L 999,195 L 1007,196 L 1007,178 L 999,177 z"/>
+ </g>
+ <path style="fill:#000000"
+       d="M 754,229 L 774,229 L 774,219 L 804,219 L 804,229 L 848,229 L 848,219 L 1012,219 L 1012,229 C 966,230 919,232 894,243 L 754,243 L 754,229 z"/>
+</g>
+
+<g id="airport" transform="rotate(-90)scale(0.04)translate(-250,-250)" style="stroke:none;fill:#000000">
+  <polygon points="490,250 450,225 320,225 170,10 140,10 200,225 80,225 30,150 10,150 30,240 30,260 10,350 30,350 80,275 200,275 140,490 170,490 320,275 450,275"/>
+  <ellipse cx="441" cy="250" rx="50" ry="24" stroke="#000000" />
+</g>
+
+
+// КСС КОНЧИЛСЯ!!!!!!
+
+
+
+</defs>
+
+<rect x="-200" y="-200" width="2000" height="2000" style="fill:white"/> // полотно
+
+<g id="river_group" style="fill:none;stroke:#e2fcfc;stroke-linejoin:round;stroke-linecap:round;opacity:1">// БОЛЬШАЯ РЕКА
+<path id="moskva_river" style="stroke-width:50px"
+d="M -30,-200
+L 410,160
+l 2000,160 q 0,25 -15,36
+" />
+
+<g id="small_river" style="stroke-width:5px">// СТИЛЬ МАЛЕНЬКИХ РЕК
+</g>
+<path id="Nagatino_poyma" style="stroke-width:30px"
+d="M 410,160
+L 360,210
+L 360,500 q 0,25 -15,36
+L  200,660  
+L  -10, 660 
+"/>
+
+</g>
+
+<g id="aeroexpress_route_grey_line" style="fill:none;opacity:1;stroke-width:5px;stroke:#dddddd">
+<g id="Aeroexpress_general">
+
+<path id="domodedovo_express_line"
+d="M 260,210 
+L 200,250  q 0,-5 -15,36
+L 150,435 q 0,25 -15,36
+L 10,500"/>
+</g>
+
+
+
+<use xlink:href="#Aeroexpress_general" id="aeroexpress_route_white_dash" style="stroke-width:4px;stroke:#FFFFFF;stroke-dasharray:10"/>
+</g>
+
+
+
+<g id="metro_route_group" style="fill:none;stroke-width:5;opacity:1">
+
+<path id="route1" style="stroke:#0078BF"
+d="M 75,85
+L 250,235"/>
+
+<path id="route2" style="stroke:#ED1B35"
+d="M 420,235
+L 250,235 
+L 250,405 q 0,25 -15,36
+L 136,524 
+"/>
+
+
+
+
+
+
+
+
+<g id="route12_group" style="stroke:#ACBFE1">
+<g id="route12_blue_stripe">
+
+</g>
+<use xlink:href="#route12_blue_stripe" id="route12_central_white_stripe" style="stroke:#FFFFFF; stroke-width:1px"/>
+</g>
+
+</g>
+
+
+
+
+
+
+
+<g id="interchange_group" style="opacity:1">    // КРУЖКИ НА ВЕТКАХ
+
+<use xlink:href="#ele-int" x="250" y="235" id="Kashirskaya"/>
+
+</g>
+
+
+
+<g id="station_nodes_group" style="opacity:1">   // КВАДРАТИКИ НА ВЕТКАХ
+<g id="station_nodes_route1">
+<use xlink:href="#term1" transform="translate(420,235)rotate(90)" id="Ulitsa_Podbelskogo"/>
+<use xlink:href="#st1" transform="translate(250,280)rotate(0)" id="Cherkizovskaya"/>
+<use xlink:href="#st1" transform="translate(250,320)rotate(0)" id="Preobrazhenskaya_Ploshchad"/>
+<use xlink:href="#st1" transform="translate(250,360)rotate(0)" id="Sokolniki"/>
+<use xlink:href="#st1" transform="translate(250,400)rotate(0)" id="Krasnoselskaya"/>
+<use xlink:href="#st1" transform="translate(230,444)rotate(45)" id="Krasniye_Vorota"/>
+<use xlink:href="#st1" transform="translate(205,465)rotate(45)" id="Kropotkinskaya"/>
+<use xlink:href="#st1" transform="translate(183,484)rotate(45)" id="Frunzenskaya"/>
+<use xlink:href="#st1" transform="translate(159,504)rotate(45)" id="Sportivnaya"/>
+<use xlink:href="#term1" transform="translate(136,524)rotate(45)" id="Yugo-Zapadnaya"/>
+</g>
+
+<g id="station_nodes_route2">     // КВАДРАТИКИ НА ВЕТКАХ
+<use xlink:href="#term3" transform="translate(75,85)rotate(-45)" id="Rechnoy_Vokzal"/>
+<use xlink:href="#st3" transform="translate(130,133)rotate(-45)" id="Vodny_Stadion"/>
+<use xlink:href="#st3" transform="translate(180,176)rotate(-45)" id="Voykovskaya"/>
+
+<use xlink:href="#intst1" transform="translate(250,235)rotate(0)" id="Kashirskaya_2"/>  // СТАНЦИЯ ИЗ ПОЛУКРУЖОЧКОВ
+<use xlink:href="#intst-h3" transform="translate(250,235)rotate(0)" id="Kashirskaya_11"/>
+
+</g>
+
+
+
+
+
+
+<g id="train_icon_group"> // ИКОНКИ ВОКЗАЛОВ
+<use xlink:href="#train" transform="translate(235,190)rotate(0)" id="Paveletsky"/>
+</g>
+
+<g id="aeroexpress_node_group">  // кружки ВОКЗАЛОВ  значок аэропорта
+<use xlink:href="#stvok" transform="translate(260,210)rotate(0)" id="Belorusky_Aeroexpress"/>
+<use xlink:href="#airport" transform="translate(100,600)rotate(0)" id="Domodedovo_Airport"/>
+</g>
+</g>
+
+
+<text id="route_terminal_num" class="ic" style="font-size:12;opacity:1">  // ЦИФРЫ ПО КРАЯМ ВЕТОК не нужны. Оставлю на всякий случай
+<tspan x="-1" y="-1" style="fill:#ED1B35">1</tspan>
+<tspan x="-1" y="-1" style="fill:#ED1B35">1</tspan>
+<tspan x="-1" y="-1" style="fill:#2a9a41">2</tspan>
+<tspan x="-1" y="-1" style="fill:#2a9a41">2</tspan>
+</text>
+
+<g id="ic_num_group" transform="translate(0,2.5)" style="opacity:1">// ЦИФРЫ НА ПЕРЕСАДКАХ
+<text id="ic_num_white" class="ic" style="font-size:10;fill:#FFF">
+<tspan x="917" y="418">1</tspan><!--Komsomolskaya-->
+<tspan x="826" y="508">1</tspan><!--Chistye Prudy-->
+<tspan x="732" y="530">1</tspan><!--Lubyanka-->
+<tspan x="676" y="588">1</tspan><!--Okhotny_Ryad-->
+<tspan x="635" y="628">1</tspan><!--Biblioteka_Imeni_Lenina-->
+<tspan x="486" y="776">1</tspan><!--Park_Kultury-->
+
+<tspan x="475.2" y="388.2">2</tspan><!--Belorusskaya-->
+<tspan x="576" y="488">2</tspan><!--Tverskaya-->
+<tspan x="696" y="608">2</tspan><!--Teatralnaya-->
+<tspan x="778" y="715">2</tspan><!--Novokuznetskaya-->
+<tspan x="855" y="803">2</tspan><!--Paveletskaya-->
+<tspan x="992" y="1189">2</tspan><!--Krasnogvardeyskaya-->
+
+
+</text> //  НАЗВАНИЕ СТАНЦИЙ НА ВЕТКАХ
+</g>
+
+<g id="stname_group" style="stroke:white; stroke-width:3px; stroke-linejoin:round; opacity:1">
+<text class="st" id="stname" transform="translate(0,4)">
+<!--#1-->
+<tspan x="410" y="220">Горьковская</tspan>
+<tspan x="260" y="225" style="font-weight:bold;fill:#ED1B35">Московская</tspan>
+<tspan x="260" y="280">Чкаловская</tspan>
+<tspan x="260" y="320">Ленинская</tspan>
+<tspan x="260" y="360">Заречная</tspan>
+<tspan x="260" y="400">Двигатель</tspan>
+<tspan x="260" y="415">Революции</tspan>
+<tspan x="245" y="448">Пролетарская</tspan>
+<tspan x="220" y="468">Автозаводская</tspan>
+<tspan x="198" y="488">Комсомольская</tspan>
+<tspan x="174" y="508">Кировская</tspan>
+<tspan x="151" y="528">Парк Культуры</tspan>
+
+<!--#2-->
+<tspan x="78" y="71">Буревестник</tspan>
+<tspan x="133" y="120">Бурнаковская</tspan>
+<tspan x="183" y="162">Канавинская</tspan>
+</text>
+
+
+
+<text id="terminalname" transform="translate(0,4)" class="small"> //НАЗВАНИЕ ВОКЗАЛА АЭРОПОРТ
+
+<!--Railway Terminal-->
+<tspan x="255" y="192">Московский</tspan>
+
+<!--Airport-->
+<tspan x="135" y="600" style="text-anchor:middle">Стригино</tspan>
+</text>
+</g>
+
+//НАЗВАНИЕ НАКЛОННЫЕ НА ВЕТКАХ
+<g id="station_name_with_stroke_group" style="opacity:1;fill:black; stroke:none">   
+<use xlink:href="#stname"/>
+<use xlink:href="#terminalname"/>
+</g>
+
+//НАЗВАНИЕ НАКЛОННЫЕ РЕК
+<g id="river_name_group" style="fill:#5555ff;opacity:1">   
+<text class="st" transform="translate(330,100)rotate(40)">Волга</text>
+<text class="st" transform="translate(355,350)rotate(90)">Ока</text>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ЛЕГЕНДА ВСЯКАЯ
+
+
+
+
+
+<g id="title_group" style="opacity:1">
+<path fill="black" stroke="none"
+d="M -20,45 L 420,45 c 50,0 50,0 80,-30 l 70,-70 L -20,-20"/>
+
+<text x="36" y="25" class="st" style="font-size:18px;fill:#fff">Схема линий Нижегородского метрополитена (2013)</text>
+</g>
+
+<g id="linebox_group" transform="translate(40,690)" style="opacity:1">
+<path stroke="#cccccc" stroke-width="3px" d="M 0,0 L 600,0"/>
+<text class="legendtext" x="300" y="-5" style="font-weight:bold; text-anchor:middle">Линии</text>
+
+<g id="legendg1">
+<path d="M 15,15 L 55,15" style="fill:none;stroke:#ED1B35;stroke-width:5" id="route1color"/>
+
+<text class="legendtext">
+<tspan x="65" y="20">#1</tspan><tspan x="90" y="20">Автозаводская линия (красная)</tspan>
+</text>
+</g>
+
+<g id="legendg2" transform="translate(300,0)">
+<path d="M 15,15 L 55,15" style="fill:none;stroke:#0078BF;stroke-width:5" id="route2color"/>
+
+<text class="legendtext">
+<tspan x="65" y="20">#2</tspan><tspan x="90" y="20">Сормовская линиhя (синяя)</tspan>
+</text>
+</g>
+
+
+
+
+
+
+<g id="legendbox_group" transform="translate(0,130)">
+<path stroke="#cccccc" stroke-width="3px" d="M 0,5 L 1250,5"/>
+<text class="legendtext" x="635" y="0" style="font-weight:bold; text-anchor:middle">Легенда</text>
+
+<g id="line_legendbox_group" transform="translate(100,50)">
+
+<g id="term_legendbox_group" transform="translate(60,0)">
+<path d="M 0,0 L 520,0" style="fill:none;stroke:#ED1B35;stroke-width:5"/>
+<use xlink:href="#term1" transform="translate(0,0)rotate(90)"/>
+<text class="ic" x="0" y="-15" style="fill:#ED1B35; text-anchor:middle">1</text>
+<text class="legendst" x="0" y="25" style="text-anchor:middle">Конечная станция</text>
+</g>
+
+<g id="st_legendbox_group" transform="translate(210,0)">
+<use xlink:href="#st1" transform="translate(0,0)rotate(90)"/>
+<text class="legendst" x="0" y="25" style="text-anchor:middle">Станция</text>
+</g>
+
+<g id="int_legendbox_group" transform="translate(360,0)">
+<path d="M -50,-20 
+l 166,0 q 14,0 24,10
+l 22,22" 
+style="fill:none;stroke:#44B85C;stroke-width:5"/>
+<use xlink:href="#int2" transform="translate(0,0)rotate(-45)"/>
+<use xlink:href="#intst1" transform="translate(0,0)rotate(90)"/>
+<use xlink:href="#intst2" transform="translate(20,-20)rotate(90)"/>
+<g transform="translate(0,2.5)">
+<text class="ic" style="font-size:10;text-anchor:middle;fill:#FFFFFF">
+<tspan x="0" y="0">1</tspan>
+<tspan x="20" y="-20">2</tspan>
+</text>
+</g>
+<text class="legendic" style="text-anchor:middle">
+<tspan x="0" y="25" >Станции</tspan>
+<tspan x="0" y="40" >пересадок</tspan>
+</text>
+<!--
+<text class="legendst" style="text-anchor:middle">
+<tspan x="0" y="45">separate stations with</tspan>
+<tspan x="0" y="60">pedestrian connections</tspan>
+</text>
+-->
+</g>
+
+<g id="crossint_legendbox_group" transform="translate(510,0)">
+<use xlink:href="#ele-int" x="0" y="0"/>
+<use xlink:href="#intst1" transform="translate(0,0)rotate(90)"/>
+<use xlink:href="#intst-h2" transform="translate(0,0)rotate(180)"/>
+<path d="M 0,0 l 0,-6 0,12 z" style="stroke:white;stroke-width:1px;"/>
+<text class="legendic" style="text-anchor:middle">
+<tspan x="0" y="25">Кросс-платформенная</tspan>
+<tspan x="0" y="40">пересадка</tspan>
+</text>
+</g>
+
+<g id="rail_terminal_group" transform="translate(660,0)">
+<use xlink:href="#train" transform="translate(-10,0)rotate(0)"/>
+<text class="legendst" style="text-anchor:middle">
+<tspan x="0" y="25">Железнодорожный</tspan>
+<tspan x="0" y="40">вокзал</tspan>
+</text>
+<path d="M 20,0 L 180,0" style="stroke-width:5px;stroke:#dddddd"/>
+<path d="M 20,0 L 180,0" style="stroke-width:4px;stroke:#FFFFFF;stroke-dasharray:10"/>
+<use xlink:href="#stvok" transform="translate(20,0)"/>
+<use xlink:href="#stvok" transform="translate(180,0)"/>
+</g>
+
+<text class="legendst" x="775" y="25" style="text-anchor:middle">Аэроэкспресс</text>
+
+<g id="airport_legendbox_group" transform="translate(860,0)">
+<use xlink:href="#airport"/>
+<text class="legendst" x="0" y="25" style="text-anchor:middle">Аэропорт</text>
+</g>
+
+<g id="waterway_legendbox_group" transform="translate(960,0)">
+<path style="fill:none;stroke:#e2fcfc;stroke-width:15px"
+d="M -40,0 L 40,0" />
+<text class="legendst" x="0" y="25" style="text-anchor:middle;fill:#5555ff">Водный путь</text>
+
+</g>
+
+</g>
+</g>
+</g>
+
+<text class="small" x="40" y="1620">Image originally created and licensed under the Creative Commons Attribution-Share Alike 3.0 by Wikipedian(s).</text>
+
+</svg>
