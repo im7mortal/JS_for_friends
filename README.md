@@ -545,13 +545,60 @@ js код может содержатся внутри тега <script>
 
 Вы заметили, что теперь в элементе содержится аттрибут style = "red"
 
+##Прикручиваем js в html
+
+Вставим под нашим элементом <div> c id = "Hello" и class="world" данный код.
+
+```
+<script>
+	document.getElementById("Hello").style.backgroundColor = "blue";
+</script>
+```
+
+Сохраните и откройте index.html в браузере. Я думаю вы уже знаете результат.
 
 ##События в js
 
 В js используется событийная модель. Когда пользователь совершает действия над элементом, например правый клик мыши.
 Браузер генерирует событие которое перехватывает js обработчик и совершает некое действие.
 
-пример
+Добавим к нашему элементу <div> аттрибут onclick="hello()"
+
+А в тег <script> поместим данный код.
+
+```
+<script>
+	function hello () {
+		var element = document.getElementById("Hello");
+		element.innerHTML = "Hi!!!Lol!!!";
+		element.style.backgroundColor = "yellow";
+	}
+</script>
+```
+Про свойство innerHTML есть хорошая [страничка](http://innerhtml.ru/)
+
+Привяжем событие к элементу другим способом. Перед этим нужно убрать аттрибут onclick и код из тега <script>
+
+```
+<script>
+	var element = document.getElementById("Hello");
+	element.onclick = hello; // второй способ
+	element.addEventListener("click", world); // третий
+
+	function hello () {
+		element.style.backgroundColor = "yellow";
+	}
+
+	function world () {
+		element.innerHTML = "Hi!!!Lol!!!";
+	}
+</script>
+```
+
+В обоих способах мы передаем функцию обработчик как обьект(то есть без (), если бы со скобками то передавался бы результат
+вызова функции, что вызвало бы ошибку).
+
+Третий способ хорош тем, что можно динамически менять события и функции обработчики.(сложная фраза)
 
 ##ООП
 
