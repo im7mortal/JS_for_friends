@@ -505,21 +505,38 @@ height: 100px;
 # Практика. css.
 Вернемся к нашему примеру из html.
 
-Вставим над открывающим тегом <div> c  id = "id"  и class="class" данный код.
+Вставим над открывающим тегом <div> c  id = "Hello"  и class="world" данный код.
 ```
 <style>
-	div {
-		height: 100px;
-	}
-	#id {
-		width: 100px;
-	}
-	.class {
-		background-color: orange
-	}
+    div {
+        height: 100px;
+    }
+    #Hello {
+        width: 100px;
+    }
+    .world {
+        background-color: orange
+    }
 </style>
 ```
 Сохраните и откройте index.html в браузере.
+
+##Прикручиваем js
+
+js код может содержатся внутри тега <script>
+или подгружаться из внешнего источника. Но для начала мы поиграем с нашей страницей из консоли.
+
+>document.getElementById("Hello").style.backgroundColor = "red";
+
+Обьект document на самом деле сокращение от window.document принятое для удобства разработки.
+
+Обьект document содержит все данные об элементах на страницы и методы по воздействию на них.
+
+В данном случае мы пользуемся методом document.getElementById чтобы найти элемент по его id.
+
+>document.getElementById("Hello")
+
+Вы заметили, что теперь в элементе содержится аттрибут style = "red"
 
 ##ООП
 
